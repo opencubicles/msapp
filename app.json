@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "moviestitch",
-    "slug": "moviestitch",
+    "slug": "ms",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.opencubicles.ms"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ad48e7e3-233f-412a-8c96-8916eac18b04"
+      }
+    },
+    "owner": "opencubicles"
   }
 }
